@@ -1,0 +1,26 @@
+.Task-Conatiner {
+    width: 945px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 3px 5px 12px 7px #888888;
+
+  }
+
+.show-model{
+    display: block;
+}
+
+  .Task-Conatiner .popup__close {
+    position: absolute;
+    width: 3%;
+    height: 7%;
+    right: 14%;
+    color: black;
+    background-color: #a88f8f;
+    border-radius: 50%;
+    cursor: pointer;
+  }

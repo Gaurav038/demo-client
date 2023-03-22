@@ -5,7 +5,6 @@ import NavBar from './Component/NavBar';
 import UpdateUser from './Component/UpdateUser';
 
 
-
 function App() {
   
   return (

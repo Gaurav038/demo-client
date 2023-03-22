@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-export const usersUrl = 'http://localhost:8000/api'
-// export const usersUrl = '/data';
+// export const usersUrl = 'http://localhost:8000/api'
+export const usersUrl = 'https://red-positive.onrender.com/api';
 
 export const getUsers = async (id) => {
     id = id || '';
